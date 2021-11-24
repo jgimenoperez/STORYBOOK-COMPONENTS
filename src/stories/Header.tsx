@@ -1,9 +1,8 @@
-import React from 'react';
 
 import { Button } from './Button';
 import './header.css';
 
-interface HeaderProps {
+export interface HeaderProps {
   user?: {};
   onLogin: () => void;
   onLogout: () => void;
@@ -45,3 +44,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
     </div>
   </header>
 );
+
+
+export default Header;
+

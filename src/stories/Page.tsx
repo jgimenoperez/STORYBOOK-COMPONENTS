@@ -1,9 +1,7 @@
-import React from 'react';
-
 import { Header } from './Header';
 import './page.css';
 
-interface PageProps {
+export interface PageProps {
   user?: {};
   onLogin: () => void;
   onLogout: () => void;
@@ -65,3 +63,8 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }: PageProps) =>
     </section>
   </article>
 );
+
+
+export default Page;
+
+

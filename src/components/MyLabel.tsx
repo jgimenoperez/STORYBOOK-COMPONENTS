@@ -8,7 +8,7 @@ export interface MyLabelProps {
     /**
      * Este es el tamaño de la etiqueta
     */
-    size: 'normal'|'h1'|'h2'|'h3'|'small';
+    size: 'normal'|'h1'|'h2'|'h3';
 
     /**
      * Si quiere todo capitalizado
@@ -50,3 +50,6 @@ export const MyLabel = ({
         </span>
     )
 }
+
+export default MyLabel;
+
