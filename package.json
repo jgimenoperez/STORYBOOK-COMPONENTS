@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "homepage": "https://fernando-herrera.com",
+  "homepage": "",
   "repository": {
     "url": "https://github.com/jgimenoperez/STORYBOOK-COMPONENTS",
     "type": "git"
