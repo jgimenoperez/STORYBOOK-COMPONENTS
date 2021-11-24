@@ -7,7 +7,7 @@
   "typings": "dist/index.d.ts",
   "homepage": "https://fernando-herrera.com",
   "repository": {
-    "url": "https://github.com/Klerith/sb-components",
+    "url": "https://github.com/jgimenoperez/STORYBOOK-COMPONENTS",
     "type": "git"
   },
   "peerDependencies": {
