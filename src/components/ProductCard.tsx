@@ -17,6 +17,7 @@ export interface MyProductCard {
   background?: React.CSSProperties
   background2?: React.CSSProperties
   estilofinal?: React.CSSProperties
+  
 }
 
 
