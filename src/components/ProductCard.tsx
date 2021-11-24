@@ -58,3 +58,5 @@ export const MyProductCard = ({
     </div>
   );
 }
+
+export default MyProductCard;
