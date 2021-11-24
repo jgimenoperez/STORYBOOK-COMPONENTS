@@ -9,7 +9,7 @@ const product = {
   img: '../../public/coffee-mug.png'
 }
 
-export interface MyProductCard {
+export interface MyProductCardInterface {
   count:number,
   maxcount:number
   color:string
@@ -29,7 +29,7 @@ export const MyProductCard = ({
     background={backgroundColor: color  } ,
     background2={backgroundColor: color  } ,
     estilofinal={...shadow,...background2}
-}: MyProductCard) => {
+}: MyProductCardInterface) => {
   return (
     <div className="App App-header">
             <ProductCard 
