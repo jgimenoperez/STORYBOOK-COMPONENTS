@@ -18,7 +18,7 @@ const Template: ComponentStory<typeof MyLabel> = (args) => <MyLabel { ...args } 
 export const Basic = Template.bind({});
 Basic.args = {
     size: 'normal',
-    allCaps: false // true: ../../public/capitalizar toda la palabra
+    allCaps: false // true: capitalizar toda la palabra
 }
 
 export const AllCaps = Template.bind({});
@@ -38,14 +38,6 @@ Tertiary.args = {
     size: 'normal',
     color: 'tertiary'
 }
-
-export const Size = Template.bind({});
-Size.args = {
-    size: 'small',
-    color: 'tertiary'
-}
-
-
 
 export const CustomFontColor = Template.bind({});
 CustomFontColor.args = {
